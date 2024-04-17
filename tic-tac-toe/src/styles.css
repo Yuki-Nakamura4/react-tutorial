@@ -71,6 +71,15 @@ body {
   width: 34px;
 }
 
+.winner {
+    /* 勝利につながったマス目のスタイルを定義 */
+    background-color: #FF9966; /* 背景色を設定 */
+}
+
+.current {
+  background-color: #87dc86;
+}
+
 .board-row:after {
   clear: both;
   content: '';
